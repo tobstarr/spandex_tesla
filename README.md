@@ -29,7 +29,7 @@ end
 Configure the correct tracer to be used:
 
 ```elixir
-config :spandex_tesla
+config :spandex_tesla,
   service: :tesla, # Optional
   tracer: MyApp.Tracer, # Required
 ```
